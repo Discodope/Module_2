@@ -19,5 +19,3 @@ for i in numbers:
 
 print('primes:', prime)
 print('not_primes:', not_primes)
-
-

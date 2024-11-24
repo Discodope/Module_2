@@ -6,12 +6,8 @@ while index < len(my_list):
     number_list = my_list[index]
     if number_list > 0:
         print(number_list)
-        index += 1
-
     if number_list < 0:
         break
     if number_list == 0:
         pass
     index +=1
-
-

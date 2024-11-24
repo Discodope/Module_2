@@ -1,7 +1,12 @@
-def get_matrix ():
-    n = 2
-    m = 3
-    value = 4
-    matrix = [[value for i in range(n)] for i in range(m)]
+def get_matrix(n, m, value):
+    matrix = []
+    for i in range(n):
+        row = []
+        for j in range(m):
+            row.append(value)
+        matrix.append(row)
     return matrix
-print(get_matrix())
+result = get_matrix(3, 9, 7)
+print(result)
+
+
